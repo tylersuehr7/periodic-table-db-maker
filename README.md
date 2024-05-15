@@ -1,6 +1,6 @@
 # Periodic Table of Elements Database Maker
 
-A command-line application that takes a JSON-formatted datastore file from (The National Library of Medicine)[https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON?response_type=display] and produces an optimized SQLite database file with a table containing all of the records from the datastore file.
+A command-line application that takes a JSON-formatted datastore file from [The National Library of Medicine](https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON?response_type=display) and produces an optimized SQLite database file with a table containing all of the records from the datastore file.
 
 ### Build system
 - `make` used to build this project
