@@ -12,7 +12,7 @@ build:
 	${CXX} ${SRC_DIR}/main.cpp ${BUILD_DIR}/sqlite.o ${BUILD_DIR}/args.o ${BUILD_DIR}/generator.o -o ${BUILD_DIR}/${EXEC}
 
 run:
-	./${BUILD_DIR}/${EXEC}
+	./${BUILD_DIR}/${EXEC} input_file_path=2024_PubChemElements_All.json output_file_path=${BUILD_DIR}/periodic_table.db
 
 clean:
 	rm -rf ${BUILD_DIR}
