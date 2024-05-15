@@ -12,7 +12,7 @@ A command-line application that takes a JSON-formatted datastore file from [The 
 
 ### Example usage
 ```
-$ ./ptg input_file_path=<path/to/input/file> output_file_path=<path/to/output/file>
+$ ./ptegen input_file_path=<path/to/input/file> output_file_path=<path/to/output/file>
 ```
 
 ### Source of elements data
